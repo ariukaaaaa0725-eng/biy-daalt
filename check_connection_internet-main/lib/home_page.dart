@@ -34,10 +34,6 @@ class _HomePageState extends State<HomePage> {
         _signal = "green";
         _status = "Connected";
         break;
-      case ConnectivityResult.wifi:
-        _signal = "green";
-        _status = "Connected";
-        break;
       case ConnectivityResult.none:
       default:
         _signal = "red";
